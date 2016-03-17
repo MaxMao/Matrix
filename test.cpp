@@ -1,7 +1,8 @@
-#include <iostream>
+#include "trimatrix.h"
 
 int main()
 {
-  //printf("%s", "hello");
-  std::cout << "Hello World!\n";
+  TriMatrix triMatrix;
+  triMatrix.setCount(10);
+  triMatrix.print();
 }
