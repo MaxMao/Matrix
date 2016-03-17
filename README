@@ -1,2 +1,2 @@
-Compile: g++ test.cpp -o test
+Compile: g++ test.cpp trimatrix.cpp -o test
 Run: ./test
